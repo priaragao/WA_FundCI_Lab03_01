@@ -4,7 +4,7 @@
   "description": "Continious Deployment with Github Actions, DockerHub",
   "scripts": {
     "start": "node app.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "express": "^4.17.1"
